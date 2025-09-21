@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "stk_widgets"
-version = "0.1.0"
+version = "0.1.1"
 description = "Custom widgets for tkinter"
 authors = [{name = "Oladapo Akintola"}]
 readme = "README.md"
@@ -24,4 +24,5 @@ dependencies = [
 Homepage = "https://github.com/OladapoAkintola/stk-widgets"
 
 [tool.setuptools.packages.find]
-where = ["stk_widgets"]
+where = ["."]
+include = ["stk_widgets"]
