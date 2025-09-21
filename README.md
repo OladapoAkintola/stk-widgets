@@ -17,17 +17,13 @@ pip install stk-widgets
 ## Example:
 
 import customtkinter as ct
-### if cloned from GitHub 
+
 from stk_widgets import ToolTip, OptionList, PasswordEntry, Spinner, ArcSpinner, VerticalTab, ClickableLabel, \
     CircleButton,  stkmessagebox, StkFileDialog, layouts,STk, screenshot_frame
 
 from stk_widgets.window.layouts import DraggableWidget
 
-### if from pypi
-from widgets import ToolTip, OptionList, PasswordEntry, Spinner, ArcSpinner, VerticalTab, ClickableLabel, \
-    CircleButton,  stkmessagebox, StkFileDialog, layouts,STk, screenshot_frame
 
-from window.layouts import DraggableWidget
 
 ### STk is a rudimentary attempt at a custom window, it is very buggy so only use if you can fix or are okay with it
 ### It's preferable to use regular tk, ttk or ctk
