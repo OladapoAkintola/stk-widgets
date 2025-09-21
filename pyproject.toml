@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tk_widgets"
+version = "0.1.0"
+description = "Custom widgets for tkinter"
+authors = [{name = "Oladapo Akintola"}]
+readme = "README.md"
+requires-python = ">=3.9"
+
+dependencies = [
+    "customtkinter",
+    "Pillow",
+]
