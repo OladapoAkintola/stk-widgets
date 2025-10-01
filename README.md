@@ -19,14 +19,12 @@ pip install stk-widgets
 import customtkinter as ct
 
 from stk_widgets import ToolTip, OptionList, PasswordEntry, Spinner, ArcSpinner, VerticalTab, ClickableLabel, \
-    CircleButton,  stkmessagebox, StkFileDialog, layouts,STk, screenshot_frame
+    CircleButton,  stkmessagebox, StkFileDialog, layouts,STk, screenshot_frame, TabbedFrame
 
 from stk_widgets.window.layouts import DraggableWidget
 
 
 
-### STk is a rudimentary attempt at a custom window, it is very buggy so only use if you can fix or are okay with it
-### It's preferable to use regular tk, ttk or ctk
 root = STk()
 
 root.set_title("Test Application")
@@ -113,6 +111,8 @@ DraggableWidget(
 
 
 root.mainloop()
+
+
 
 
 ---
